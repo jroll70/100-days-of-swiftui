@@ -2,7 +2,7 @@ import UIKit
 
 var greeting = "Hello, playground"
 
-// Lesson 4
+// Lesson 4 Variables vs Constants
 var name = "Ted"
 name = "Rebecca"
 name = "Keeley"
@@ -22,7 +22,7 @@ let managerName = "Michael Scott"
 let dogBreed = "Samoyed"
 let meaningOfLife = "How many roads must a man walk down?"
 
-// Lesson 5
+// Lesson 5 Strings
 let actor = "Denzel Washington"
 let filename = "paris.jpg"
 let result = "⭐️ You win! ⭐️"
@@ -45,3 +45,31 @@ print(result.uppercased())
 print(movie.hasPrefix("A day"))
 print(filename.hasSuffix(".jpg"))
 
+// Lesson 6 Integers
+let score = 10
+let reallyBig = 100000000
+
+let lowerScore = score - 2
+let higherScore = score + 10
+let doubledScore = score * 2
+let squaredScore = score * score
+let halvedScore = score / 2
+print(score)
+
+var counter = 10
+counter = counter + 5
+
+counter += 5
+print(counter)
+
+counter *= 2
+print(counter)
+counter -= 10
+print(counter)
+counter /= 2
+print(counter)
+
+let number = 120
+print(number.isMultiple(of: 3))
+
+print(120.isMultiple(of: 3))
