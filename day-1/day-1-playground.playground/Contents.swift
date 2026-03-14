@@ -73,3 +73,11 @@ let number = 120
 print(number.isMultiple(of: 3))
 
 print(120.isMultiple(of: 3))
+
+// Lesson 7 Floats
+let floatNumber = 0.1 + 0.2
+print(floatNumber)
+
+let a = 1
+let b = 2.0
+let c = a + Int(b)
