@@ -1,7 +1,5 @@
 import UIKit
 
-var greeting = "Hello, playground"
-
 // Lesson 1 Booleans
 let goodDogs = true
 let gameOver = false
@@ -20,6 +18,19 @@ print(gameOver)
 gameNotOver.toggle()
 print(gameNotOver)
 
-// Lesson 2
+// Lesson 2 Joining Strings
 
+let firstPart = "Hello, "
+let secondPart = "world!"
+let greeting = firstPart + secondPart
+
+let people = "Haters"
+let action = "hate"
+let lyric = people + " gonna " + action
+print(lyric)
+
+let name = "Taylor"
+let age = 26
+let message = "Hello, my name is \(name) and I'm \(age) years old."
+print(message)
 
